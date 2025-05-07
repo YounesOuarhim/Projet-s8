@@ -1,0 +1,1 @@
+- Do a GLM using data about 2024, and having as features the sinistrality coef of 2023 and 2022 

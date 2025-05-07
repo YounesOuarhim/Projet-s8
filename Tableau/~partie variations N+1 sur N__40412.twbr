@@ -1,0 +1,1792 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0711.1636                               -->
+<workbook original-version='18.1' source-build='2024.2.1 (20242.24.0711.1636)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='dépenses_totales_transport_par_age_2024' inline='true' name='federated.0u46vjv0e6g6830zxf7gj0bnink9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dépenses_totales_transport_par_age_2024' name='textscan.12gikst12bwcns1h0uucw1xg2llp'>
+            <connection class='textscan' directory='C:/Users/Ouarhim Younes/Desktop/scolarité CS 2A/Projet s8/CSVS PAGE 6' filename='dépenses_totales_transport_par_age_2024.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12gikst12bwcns1h0uucw1xg2llp' name='dépenses_totales_transport_par_age_2024.csv' table='[dépenses_totales_transport_par_age_2024#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='AGE_BEN_SNDS' ordinal='1' />
+            <column datatype='real' name='Dépenses totales transport' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12gikst12bwcns1h0uucw1xg2llp' name='dépenses_totales_transport_par_age_2024.csv' table='[dépenses_totales_transport_par_age_2024#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='AGE_BEN_SNDS' ordinal='1' />
+            <column datatype='real' name='Dépenses totales transport' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dépenses_totales_transport_par_age_2024.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[dépenses_totales_transport_par_age_2024.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dépenses_totales_transport_par_age_2024.csv_F683B9DAB2C743A4B960E59521559D9A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE_BEN_SNDS</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGE_BEN_SNDS]</local-name>
+            <parent-name>[dépenses_totales_transport_par_age_2024.csv]</parent-name>
+            <remote-alias>AGE_BEN_SNDS</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dépenses_totales_transport_par_age_2024.csv_F683B9DAB2C743A4B960E59521559D9A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dépenses totales transport</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dépenses totales transport]</local-name>
+            <parent-name>[dépenses_totales_transport_par_age_2024.csv]</parent-name>
+            <remote-alias>Dépenses totales transport</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dépenses_totales_transport_par_age_2024.csv_F683B9DAB2C743A4B960E59521559D9A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Ben Snds' datatype='integer' name='[AGE_BEN_SNDS]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='dépenses_totales_transport_par_age_2024.csv' datatype='table' name='[__tableau_internal_object_id__].[dépenses_totales_transport_par_age_2024.csv_F683B9DAB2C743A4B960E59521559D9A]' role='measure' type='quantitative' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='0' value='0-19' />
+          <alias key='1' value='20-29' />
+          <alias key='2' value='30-39' />
+          <alias key='3' value='40-49' />
+          <alias key='4' value='50-59' />
+          <alias key='5' value='60-69' />
+          <alias key='6' value='70-79' />
+          <alias key='7' value='80+' />
+        </aliases>
+      </column>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/OUARHI~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1qvt3zf1mslsor1d0rzgm0k0b24d.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/17/2025 02:22:43 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dépenses_totales_transport_par_age_2024.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE_BEN_SNDS</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AGE_BEN_SNDS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE_BEN_SNDS</remote-alias>
+              <ordinal>1</ordinal>
+              <family>dépenses_totales_transport_par_age_2024.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dépenses totales transport</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Dépenses totales transport]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dépenses totales transport</remote-alias>
+              <ordinal>2</ordinal>
+              <family>dépenses_totales_transport_par_age_2024.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='dépenses_totales_transport_par_age_2024.csv' id='dépenses_totales_transport_par_age_2024.csv_F683B9DAB2C743A4B960E59521559D9A'>
+            <properties context=''>
+              <relation connection='textscan.12gikst12bwcns1h0uucw1xg2llp' name='dépenses_totales_transport_par_age_2024.csv' table='[dépenses_totales_transport_par_age_2024#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='integer' name='AGE_BEN_SNDS' ordinal='1' />
+                  <column datatype='real' name='Dépenses totales transport' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='variations' inline='true' name='federated.107s50l1nok8901eejmwc10vfzf6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='variations' name='textscan.0alg0ia1hykzwe12bez0d00ud1zn'>
+            <connection class='textscan' directory='C:/Users/Ouarhim Younes/Desktop/scolarité CS 2A/Projet s8/page_1' filename='variations.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0alg0ia1hykzwe12bez0d00ud1zn' name='variations.csv' table='[variations#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=',' text-qualifier=''>
+            <column datatype='integer' name='Année' ordinal='0' />
+            <column datatype='real' name='Variations annuelle des dépenses' ordinal='1' />
+            <column datatype='real' name='Variations annuelles des remboursements' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0alg0ia1hykzwe12bez0d00ud1zn' name='variations.csv' table='[variations#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=',' text-qualifier=''>
+            <column datatype='integer' name='Année' ordinal='0' />
+            <column datatype='real' name='Variations annuelle des dépenses' ordinal='1' />
+            <column datatype='real' name='Variations annuelles des remboursements' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[variations.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Année</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Année]</local-name>
+            <parent-name>[variations.csv]</parent-name>
+            <remote-alias>Année</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[variations.csv_39F0746898514149B8CEDD0EE7A5486C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variations annuelle des dépenses</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Variations annuelle des dépenses]</local-name>
+            <parent-name>[variations.csv]</parent-name>
+            <remote-alias>Variations annuelle des dépenses</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[variations.csv_39F0746898514149B8CEDD0EE7A5486C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variations annuelles des remboursements</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Variations annuelles des remboursements]</local-name>
+            <parent-name>[variations.csv]</parent-name>
+            <remote-alias>Variations annuelles des remboursements</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[variations.csv_39F0746898514149B8CEDD0EE7A5486C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Année]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='variations.csv' datatype='table' name='[__tableau_internal_object_id__].[variations.csv_39F0746898514149B8CEDD0EE7A5486C]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/OUARHI~1/AppData/Local/Temp/TableauTemp/#TableauTemp_01tqz4w0akehmf18i397517bjv5f.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/17/2025 02:39:41 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Année</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Année]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Année</remote-alias>
+              <ordinal>0</ordinal>
+              <family>variations.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[variations.csv_39F0746898514149B8CEDD0EE7A5486C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Variations annuelle des dépenses</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Variations annuelle des dépenses]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variations annuelle des dépenses</remote-alias>
+              <ordinal>1</ordinal>
+              <family>variations.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[variations.csv_39F0746898514149B8CEDD0EE7A5486C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Variations annuelles des remboursements</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Variations annuelles des remboursements]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variations annuelles des remboursements</remote-alias>
+              <ordinal>2</ordinal>
+              <family>variations.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[variations.csv_39F0746898514149B8CEDD0EE7A5486C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='variations.csv' id='variations.csv_39F0746898514149B8CEDD0EE7A5486C'>
+            <properties context=''>
+              <relation connection='textscan.0alg0ia1hykzwe12bez0d00ud1zn' name='variations.csv' table='[variations#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=',' text-qualifier=''>
+                  <column datatype='integer' name='Année' ordinal='0' />
+                  <column datatype='real' name='Variations annuelle des dépenses' ordinal='1' />
+                  <column datatype='real' name='Variations annuelles des remboursements' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource inline='true' name='Clipboard_20250317T154019' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Clipboard_20250317T154019' name='Clipboard_20250317T154019leaf'>
+            <connection class='textscan' directory='C:/Users/Ouarhim Younes/Documents/Mon dossier Tableau/Sources de données' filename='Clipboard_20250317T154019.txt' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='Clipboard_20250317T154019leaf' name='Clipboard_20250317T154019#txt' table='[Clipboard_20250317T154019#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=' '>
+            <column datatype='string' name='Variations' ordinal='0' />
+            <column datatype='string' name='relatives' ordinal='1' />
+            <column datatype='string' name='N/N-1' ordinal='2' />
+            <column datatype='string' name='du' ordinal='3' />
+            <column datatype='string' name='montant' ordinal='4' />
+            <column datatype='string' name='total' ordinal='5' />
+            <column datatype='string' name='de' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='Clipboard_20250317T154019leaf' name='Clipboard_20250317T154019#txt' table='[Clipboard_20250317T154019#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=' '>
+            <column datatype='string' name='Variations' ordinal='0' />
+            <column datatype='string' name='relatives' ordinal='1' />
+            <column datatype='string' name='N/N-1' ordinal='2' />
+            <column datatype='string' name='du' ordinal='3' />
+            <column datatype='string' name='montant' ordinal='4' />
+            <column datatype='string' name='total' ordinal='5' />
+            <column datatype='string' name='de' ordinal='6' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variations</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variations]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>Variations</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>relatives</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[relatives]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>relatives</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>N/N-1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[N/N-1]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>N/N-1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>du</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[du]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>du</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>montant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[montant]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>montant</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>de</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[de]</local-name>
+            <parent-name>[Clipboard_20250317T154019#txt]</parent-name>
+            <remote-alias>de</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Clipboard_20250317T154019]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Clipboard_20250317T154019' datatype='table' name='[__tableau_internal_object_id__].[Clipboard_20250317T154019]' role='measure' type='quantitative' />
+      <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+      <column caption='Du' datatype='string' name='[du]' role='dimension' type='nominal' />
+      <column caption='Montant' datatype='string' name='[montant]' role='dimension' type='nominal' />
+      <column caption='Relatives' datatype='string' name='[relatives]' role='dimension' type='nominal' />
+      <column caption='Total' datatype='string' name='[total]' role='dimension' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/OUARHI~1/AppData/Local/Temp/TableauTemp/#TableauTemp_1vso6fh1n8d90n1c9y3nv0jqhuie.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/17/2025 02:40:19 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Variations</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Variations]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Variations</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>relatives</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[relatives]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>relatives</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>N/N-1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[N/N-1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>N/N-1</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>du</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[du]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>du</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>montant</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[montant]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>montant</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>de</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[de]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>de</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Clipboard_20250317T154019#txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LFR_RFR' />
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Clipboard_20250317T154019' id='Clipboard_20250317T154019'>
+            <properties context=''>
+              <relation connection='Clipboard_20250317T154019leaf' name='Clipboard_20250317T154019#txt' table='[Clipboard_20250317T154019#txt]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=' '>
+                  <column datatype='string' name='Variations' ordinal='0' />
+                  <column datatype='string' name='relatives' ordinal='1' />
+                  <column datatype='string' name='N/N-1' ordinal='2' />
+                  <column datatype='string' name='du' ordinal='3' />
+                  <column datatype='string' name='montant' ordinal='4' />
+                  <column datatype='string' name='total' ordinal='5' />
+                  <column datatype='string' name='de' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='dépenses transports' inline='true' name='federated.17tnkut0ghtz0e17p6myf03k07jr' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dépenses transports' name='textscan.1y2huvk0z2anqy12rwbea0t25wr6'>
+            <connection class='textscan' directory='C:/Users/Ouarhim Younes/Desktop/scolarité CS 2A/Projet s8/CSVS PAGE 6' filename='dépenses transports.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Permuter' type='pivot'>
+          <columns>
+            <column datatype='string' name='Permuter les noms des champs' />
+            <column datatype='integer' name='Permuter les valeurs des champs' />
+          </columns>
+          <tag name='Permuter les noms des champs'>
+            <value name='[taxis]' />
+            <value name='[transports]' />
+          </tag>
+          <groups>
+            <group name='Permuter les valeurs des champs'>
+              <field name='[dépenses transports.csv].[taxis]' />
+              <field name='[dépenses transports.csv].[transports]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1y2huvk0z2anqy12rwbea0t25wr6' name='dépenses transports.csv' table='[dépenses transports#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+              <column datatype='integer' name='annee' ordinal='0' />
+              <column datatype='integer' name='taxis' ordinal='1' />
+              <column datatype='integer' name='transports' ordinal='2' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Permuter' type='pivot'>
+          <columns>
+            <column datatype='string' name='Permuter les noms des champs' />
+            <column datatype='integer' name='Permuter les valeurs des champs' />
+          </columns>
+          <tag name='Permuter les noms des champs'>
+            <value name='[taxis]' />
+            <value name='[transports]' />
+          </tag>
+          <groups>
+            <group name='Permuter les valeurs des champs'>
+              <field name='[dépenses transports.csv].[taxis]' />
+              <field name='[dépenses transports.csv].[transports]' />
+            </group>
+          </groups>
+          <relation connection='textscan.1y2huvk0z2anqy12rwbea0t25wr6' name='dépenses transports.csv' table='[dépenses transports#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+              <column datatype='integer' name='annee' ordinal='0' />
+              <column datatype='integer' name='taxis' ordinal='1' />
+              <column datatype='integer' name='transports' ordinal='2' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dépenses transports.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annee</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[annee]</local-name>
+            <parent-name>[dépenses transports.csv]</parent-name>
+            <remote-alias>annee</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dépenses transports.csv_483530F1C0854C70B0E19B20B57EBFC2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Permuter les noms des champs</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Permuter les noms des champs]</local-name>
+            <parent-name>[Permuter]</parent-name>
+            <remote-alias>Permuter les noms des champs</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dépenses transports.csv_483530F1C0854C70B0E19B20B57EBFC2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Permuter les valeurs des champs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Permuter les valeurs des champs]</local-name>
+            <parent-name>[Permuter]</parent-name>
+            <remote-alias>Permuter les valeurs des champs</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dépenses transports.csv_483530F1C0854C70B0E19B20B57EBFC2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Dépenses en (Md)' datatype='real' name='[Calculation_1615384949368045569]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Permuter les valeurs des champs] / 1000000000' />
+      </column>
+      <column caption='type transport' datatype='string' name='[Permuter les noms des champs]' role='dimension' type='nominal' />
+      <column caption='Dépenses' datatype='integer' name='[Permuter les valeurs des champs]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='dépenses transports.csv' datatype='table' name='[__tableau_internal_object_id__].[dépenses transports.csv_483530F1C0854C70B0E19B20B57EBFC2]' role='measure' type='quantitative' />
+      <column caption='Annee' datatype='string' datatype-customized='true' name='[annee]' role='dimension' type='nominal' />
+      <column-instance column='[Permuter les noms des champs]' derivation='None' name='[none:Permuter les noms des champs:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='fr_FR' class='hyper' dbname='C:/Users/OUARHI~1/AppData/Local/Temp/TableauTemp/#TableauTemp_15c5f8d12tow4x1f4irko0j2anxm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/17/2025 02:51:58 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>annee</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[annee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>annee</remote-alias>
+              <ordinal>0</ordinal>
+              <family>dépenses transports.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Permuter les noms des champs</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Permuter les noms des champs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Permuter les noms des champs</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Permuter</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Permuter les valeurs des champs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Permuter les valeurs des champs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Permuter les valeurs des champs</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Permuter</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:taxis:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17tnkut0ghtz0e17p6myf03k07jr]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:transports:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Permuter les noms des champs:nk]' type='palette'>
+            <map to='#5b8cb8'>
+              <bucket>&quot;transports&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;taxis&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;FR&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='annee' />
+        <field-sort-custom-order field='Permuter les noms des champs' />
+        <field-sort-custom-order field='Permuter les valeurs des champs' />
+        <field-sort-custom-order field='Calculation_1615384949368045569' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='dépenses transports.csv' id='dépenses transports.csv_483530F1C0854C70B0E19B20B57EBFC2'>
+            <properties context=''>
+              <relation name='Permuter' type='pivot'>
+                <columns>
+                  <column datatype='string' name='Permuter les noms des champs' />
+                  <column datatype='integer' name='Permuter les valeurs des champs' />
+                </columns>
+                <tag name='Permuter les noms des champs'>
+                  <value name='[taxis]' />
+                  <value name='[transports]' />
+                </tag>
+                <groups>
+                  <group name='Permuter les valeurs des champs'>
+                    <field name='[dépenses transports.csv].[taxis]' />
+                    <field name='[dépenses transports.csv].[transports]' />
+                  </group>
+                </groups>
+                <relation connection='textscan.1y2huvk0z2anqy12rwbea0t25wr6' name='dépenses transports.csv' table='[dépenses transports#csv]' type='table'>
+                  <columns character-set='UTF-8' header='yes' locale='fr_FR'>
+                    <column datatype='integer' name='annee' ordinal='0' />
+                    <column datatype='integer' name='taxis' ordinal='1' />
+                    <column datatype='integer' name='transports' ordinal='2' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Surligner 1 (généré)' name='[Action1_87D0E7A9CCD948CC8CAB65D3E4E814B6]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dépenses en Transport' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='type transport' />
+        <param name='target' value='Dépenses en Transport' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Evolution de la dépense des transport'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='25'>Évolution de la dépense en transport par type de transport </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dépenses transports' name='federated.17tnkut0ghtz0e17p6myf03k07jr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17tnkut0ghtz0e17p6myf03k07jr'>
+            <column caption='Dépenses en (Md)' datatype='real' name='[Calculation_1615384949368045569]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Permuter les valeurs des champs] / 1000000000' />
+            </column>
+            <column caption='type transport' datatype='string' name='[Permuter les noms des champs]' role='dimension' type='nominal' />
+            <column caption='Dépenses' datatype='integer' name='[Permuter les valeurs des champs]' role='measure' type='quantitative' />
+            <column caption='Annee' datatype='string' datatype-customized='true' name='[annee]' role='dimension' type='nominal' />
+            <column-instance column='[Permuter les noms des champs]' derivation='None' name='[none:Permuter les noms des champs:nk]' pivot='key' type='nominal' />
+            <column-instance column='[annee]' derivation='None' name='[none:annee:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1615384949368045569]' derivation='Sum' name='[sum:Calculation_1615384949368045569:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:Permuter les noms des champs:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;taxis&quot;</bucket>
+              <bucket>&quot;transports&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]' value='312' />
+            <format attr='text-format' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='64' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-size' value='20' />
+          </style-rule>
+          <style-rule element='field-labels-decoration'>
+            <format attr='font-size' value='15' />
+            <format attr='font-weight' value='bold' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' value='n#,##0&quot;Md&quot;;-#,##0&quot;Md&quot;' />
+            <format attr='font-size' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' value='12' />
+            <format attr='color' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' value='bold' />
+            <format attr='color' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]' value='#000000' />
+            <format attr='font-weight' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]' value='bold' />
+            <format attr='font-size' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]' value='12' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:Permuter les noms des champs:nk]' value=''>
+              <formatted-text />
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:Permuter les noms des champs:nk]' />
+              <text column='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' />
+              <tooltip column='[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.626187801361084' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]</rows>
+        <cols>[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:Permuter les noms des champs:nk]</field>
+                  <field>[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:annee:nk]</field>
+                  <field>[federated.17tnkut0ghtz0e17p6myf03k07jr].[sum:Calculation_1615384949368045569:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;taxis&quot;</value>
+                <value>&quot;2020&quot;</value>
+                <value>1.899086405</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{CA4458AF-F7C3-4BD6-BBFC-0E996B4075AC}' />
+    </worksheet>
+    <worksheet name='Feuille 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='variations' name='federated.107s50l1nok8901eejmwc10vfzf6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.107s50l1nok8901eejmwc10vfzf6'>
+            <column aggregation='Sum' datatype='integer' name='[Année]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Variations annuelle des dépenses]' role='measure' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Variations annuelle des dépenses]' derivation='Sum' name='[sum:Variations annuelle des dépenses:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.1974033117294312' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]</rows>
+        <cols>[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]</cols>
+      </table>
+      <simple-id uuid='{56829DCB-A105-4201-92FD-5C8DA982FFD4}' />
+    </worksheet>
+    <worksheet name='Feuille 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='Clipboard_20250317T154019' />
+          </datasources>
+          <datasource-dependencies datasource='Clipboard_20250317T154019'>
+            <column datatype='string' name='[N/N-1]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Variations]' role='dimension' type='nominal' />
+            <column caption='De' datatype='string' name='[de]' role='dimension' type='nominal' />
+            <column caption='Du' datatype='string' name='[du]' role='dimension' type='nominal' />
+            <column caption='Montant' datatype='string' name='[montant]' role='dimension' type='nominal' />
+            <column-instance column='[N/N-1]' derivation='None' name='[none:N/N-1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Variations]' derivation='None' name='[none:Variations:nk]' pivot='key' type='nominal' />
+            <column-instance column='[de]' derivation='None' name='[none:de:nk]' pivot='key' type='nominal' />
+            <column-instance column='[du]' derivation='None' name='[none:du:nk]' pivot='key' type='nominal' />
+            <column-instance column='[montant]' derivation='None' name='[none:montant:nk]' pivot='key' type='nominal' />
+            <column-instance column='[relatives]' derivation='None' name='[none:relatives:nk]' pivot='key' type='nominal' />
+            <column-instance column='[total]' derivation='None' name='[none:total:nk]' pivot='key' type='nominal' />
+            <column caption='Relatives' datatype='string' name='[relatives]' role='dimension' type='nominal' />
+            <column caption='Total' datatype='string' name='[total]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([Clipboard_20250317T154019].[none:Variations:nk] / ([Clipboard_20250317T154019].[none:relatives:nk] / ([Clipboard_20250317T154019].[none:N/N-1:nk] / ([Clipboard_20250317T154019].[none:du:nk] / ([Clipboard_20250317T154019].[none:montant:nk] / ([Clipboard_20250317T154019].[none:total:nk] / [Clipboard_20250317T154019].[none:de:nk]))))))</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{D3145F4D-D8F2-42FF-9801-9DFA0C5127FB}' />
+    </worksheet>
+    <worksheet name='Feuille 7'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C0715A74-D0F5-4074-AA7E-8BE1422FD79E}' />
+    </worksheet>
+    <worksheet name='Variations relatives N/N-1 du montant total des remboursements'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='25'>Variations relatives N/N-1 du montant total des dépenses</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='variations' name='federated.107s50l1nok8901eejmwc10vfzf6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.107s50l1nok8901eejmwc10vfzf6'>
+            <column aggregation='Sum' datatype='integer' name='[Année]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Variations annuelle des dépenses]' role='measure' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Variations annuelle des dépenses]' derivation='Sum' name='[sum:Variations annuelle des dépenses:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' value='#f5f5f5' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' value='bold' />
+            <format attr='font-size' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' value='12' />
+            <format attr='color' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]' value='bold' />
+            <format attr='color' field='[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]' value='#000000' />
+            <format attr='font-size' field='[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]' value='12' />
+            <format attr='text-format' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='14' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2523757219314575' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelle des dépenses:qk]</rows>
+        <cols>[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]</cols>
+      </table>
+      <simple-id uuid='{6755E5BB-110C-4C86-BAA6-50A0440680DA}' />
+    </worksheet>
+    <worksheet name='Variations relatives N/N-1 du montant total des remboursements (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='25'>Variations relatives N/N-1 des remboursements</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='variations' name='federated.107s50l1nok8901eejmwc10vfzf6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.107s50l1nok8901eejmwc10vfzf6'>
+            <column aggregation='Sum' datatype='integer' name='[Année]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Variations annuelles des remboursements]' role='measure' type='quantitative' />
+            <column-instance column='[Année]' derivation='None' name='[none:Année:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Variations annuelles des remboursements]' derivation='Sum' name='[sum:Variations annuelles des remboursements:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-size' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='12' />
+            <format attr='font-weight' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='bold' />
+            <format attr='text-format' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='p0.0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]' value='bold' />
+            <format attr='color' field='[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]' value='#000000' />
+            <format attr='font-size' field='[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]' value='12' />
+            <format attr='color' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='bold' />
+            <format attr='font-size' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='12' />
+            <format attr='text-format' field='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='14' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.2523757219314575' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#98d17f' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.107s50l1nok8901eejmwc10vfzf6].[sum:Variations annuelles des remboursements:qk]</rows>
+        <cols>[federated.107s50l1nok8901eejmwc10vfzf6].[none:Année:ok]</cols>
+      </table>
+      <simple-id uuid='{463FE39B-07B1-48ED-8826-F64D516092CB}' />
+    </worksheet>
+    <worksheet name='Évolution des dépenses totales en transport selon l&apos;âge en 2024.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='25'>Évolution des dépenses totales en transport selon l&apos;âge en 2024.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dépenses_totales_transport_par_age_2024' name='federated.0u46vjv0e6g6830zxf7gj0bnink9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0u46vjv0e6g6830zxf7gj0bnink9'>
+            <column datatype='real' name='[Dépenses totales transport]' role='measure' type='quantitative' />
+            <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='0' value='0-19' />
+                <alias key='1' value='20-29' />
+                <alias key='2' value='30-39' />
+                <alias key='3' value='40-49' />
+                <alias key='4' value='50-59' />
+                <alias key='5' value='60-69' />
+                <alias key='6' value='70-79' />
+                <alias key='7' value='80+' />
+              </aliases>
+            </column>
+            <column-instance column='[id]' derivation='None' name='[none:id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Dépenses totales transport]' derivation='Sum' name='[sum:Dépenses totales transport:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' scope='rows' value='Dépenses totales transport (M)' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='220' />
+            <format attr='text-format' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='n#,##0,,M;-#,##0,,M' />
+            <format attr='font-size' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='10' />
+            <format attr='font-weight' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='normal' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-weight' data-class='subtotal' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='bold' />
+            <format attr='color' data-class='subtotal' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='#000000' />
+            <format attr='font-size' data-class='subtotal' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='16' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='n#,##0,,M;-#,##0,,M' />
+            <format attr='color' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='#000000' />
+            <format attr='font-size' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='12' />
+            <format attr='font-weight' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]' value='bold' />
+            <format attr='font-size' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='11' />
+            <format attr='color' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='#000000' />
+            <format attr='font-weight' field='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]</rows>
+        <cols>[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]</cols>
+      </table>
+      <simple-id uuid='{6E102107-FF5D-4E3E-8E5F-543E27C3BBB2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dépenses en Transport'>
+      <style />
+      <size maxheight='1600' maxwidth='2000' minheight='1600' minwidth='2000' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99000' id='11' param='horz' type-v2='layout-flow' w='99200' x='400' y='500'>
+            <zone h='99000' id='8' param='horz' type-v2='layout-flow' w='99200' x='400' y='500'>
+              <zone h='99000' id='6' type-v2='layout-basic' w='99200' x='400' y='500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='background-color' value='#ecf5f7' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='49938' id='3' name='Évolution des dépenses totales en transport selon l&apos;âge en 2024.' w='39800' x='1650' y='2313' />
+        <zone h='50563' id='9' name='Evolution de la dépense des transport' w='40550' x='53050' y='2125' />
+        <zone fixed-size='160' h='30563' id='10' is-fixed='true' param='vert' type-v2='layout-flow' w='8000' x='59050' y='12875'>
+          <zone h='5250' id='12' name='Evolution de la dépense des transport' pane-specification-id='2' param='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:Permuter les noms des champs:nk]' type-v2='color' w='8000' x='59050' y='12875'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CE7E3C20-3F62-4B0C-AB62-158CEC1F5D00}' />
+    </dashboard>
+    <dashboard name='Histoire 1' type='storyboard'>
+      <style>
+        <style-rule element='story-point-caption'>
+          <format attr='width' value='35' />
+        </style-rule>
+      </style>
+      <size maxheight='1600' maxwidth='2000' minheight='1600' minwidth='2000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='99000' id='7' param='vert' removable='false' type-v2='layout-flow' w='99200' x='400' y='500'>
+            <zone h='99000' id='1' param='vert' removable='false' type-v2='layout-flow' w='99200' x='400' y='500'>
+              <zone h='4938' id='4' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='99200' x='400' y='500' />
+              <zone h='94062' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='99200' x='400' y='5438'>
+                <flipboard active-id='2' nav-type='number' show-nav-arrows='true'>
+                  <story-points>
+                    <story-point captured-sheet='Variations relatives N+1 / N' id='1' />
+                    <story-point captured-sheet='Dépenses en Transport' id='2'>
+                      <currentDeltas>
+                        <worksheet name='Évolution des dépenses totales en transport selon l&apos;âge en 2024.'>
+                          <selection-collection>
+                            <tuple-selection>
+                              <tuple-reference>
+                                <tuple-descriptor>
+                                  <pane-descriptor>
+                                    <x-fields>
+                                      <field>[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]</field>
+                                    </x-fields>
+                                    <y-fields>
+                                      <field>[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]</field>
+                                    </y-fields>
+                                  </pane-descriptor>
+                                  <columns>
+                                    <field>[federated.0u46vjv0e6g6830zxf7gj0bnink9].[none:id:ok]</field>
+                                    <field>[federated.0u46vjv0e6g6830zxf7gj0bnink9].[sum:Dépenses totales transport:qk]</field>
+                                  </columns>
+                                </tuple-descriptor>
+                                <tuple>
+                                  <value>7</value>
+                                  <value>1289242499.6999996</value>
+                                </tuple>
+                              </tuple-reference>
+                            </tuple-selection>
+                          </selection-collection>
+                        </worksheet>
+                      </currentDeltas>
+                      <capturedDeltas />
+                    </story-point>
+                  </story-points>
+                </flipboard>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{77CEBAA4-3773-4CBF-B51B-0AC692DEBE97}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Variations relatives N+1 / N'>
+      <style />
+      <size maxheight='1600' maxwidth='2000' minheight='1600' minwidth='2000' sizing-mode='range' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+            <format attr='background-color' value='#ecf5f7' />
+          </zone-style>
+        </zone>
+        <zone h='51125' id='6' name='Variations relatives N/N-1 du montant total des remboursements' w='40000' x='4950' y='5181' />
+        <zone h='51125' id='5' name='Variations relatives N/N-1 du montant total des remboursements (2)' w='40000' x='53650' y='5044' />
+        <zone forceUpdate='true' h='36938' id='7' type-v2='text' w='34300' x='7700' y='58500'>
+          <formatted-text>
+            <run bold='true' fontcolor='#4e79a7' fontname='Benton Sans Book' fontsize='18'>Observations générales à propos de la dépenses en santé</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>La variation entre 2019 et 2020 a été négative en raison du confinement lié à la crise du COVID-19</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>.</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- Une forte augmentation des dépenses est observée en 2021 par rapport à 2020 (environ </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>15 %</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>), en raison du retour accru aux soins après une période de confinement.</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- Entre </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>2022</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> et </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>2024</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>, une augmentation rapide des dépenses en santé est constatée (</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>1,6 %</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> en 2022, </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>2,6 %</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> en 2023 et </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>4,1 %</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> en 2024). Cela suggère une tendance à la </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>hausse de la sinistralité</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>, pouvant être attribuée soit à des frais de santé plus élevés, soit à une consommation de soins de santé en forte croissance.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='41188' id='8' type-v2='text' w='37900' x='54950' y='57750'>
+          <formatted-text>
+            <run bold='true' fontcolor='#98d17f' fontname='Benton Sans Book' fontsize='18'>Observations générales à propos du remboursement de la sécurité sociale</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Entre 2019 et 2020</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>, on observe une </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>légère augmentation</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> des montants remboursés par l&apos;Assurance Maladie. Cette hausse modérée est principalement expliquée par la</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> baisse importante</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> des consultations médicales durant le confinement de </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>2020 (de mars à mai).</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- Comme pour les dépenses en santé, les remboursements ont connu une </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>évolution significative entre 2020 et 2021</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>, avec une hausse de</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> 14,7%</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>.</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>De 2022 à 2024</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>, l&apos;augmentation des remboursements s&apos;accélère, bien que restant inférieure à celle observée entre 2020 et 2021. En 2022, l&apos;augmentation est de </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>1,5%</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> par rapport à 2021 (après la période cruciale de la pandémie), puis de</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> 1,6%</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> entre 2022 et 2023, et enfin de</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> 3,9%</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> entre 2023 et 2024.</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>- </run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>Il est clair qu&apos;entre 2022 et 2024</run>
+            <run fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'>,</run>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='12'> l&apos;évolution des remboursements de la Sécurité Sociale reste inférieure à la hausse des dépenses de santé des Français, ce qui signifie que la part du reste à charge (RAC) et des assurances complémentaires a augmenté.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{88FE9815-C98E-4F80-9F7E-660C5731D868}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='137'>
+    <window class='worksheet' name='Evolution de la dépense des transport'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='2' param='[federated.17tnkut0ghtz0e17p6myf03k07jr].[none:Permuter les noms des champs:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{46BD4C26-02C3-482D-95A1-D951BC9B4718}' />
+    </window>
+    <window class='worksheet' name='Évolution des dépenses totales en transport selon l&apos;âge en 2024.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{56F6E541-8238-4FE5-8264-C60898F803BE}' />
+    </window>
+    <window class='worksheet' name='Variations relatives N/N-1 du montant total des remboursements'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{813782D9-95D9-4CE8-8FBA-8F70BB168ECF}' />
+    </window>
+    <window class='worksheet' name='Variations relatives N/N-1 du montant total des remboursements (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{03FCDE22-EA91-41FC-B08C-33DB82091AA6}' />
+    </window>
+    <window class='worksheet' name='Feuille 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{81B5E6F1-6D88-49C4-AC0E-67A03D14D5E9}' />
+    </window>
+    <window class='worksheet' name='Feuille 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2383F63A-36F9-4EAD-9325-4E2367FDC6BE}' />
+    </window>
+    <window class='worksheet' name='Feuille 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4DBCEB1F-71F0-4F18-90FB-3CB451B9FAD9}' />
+    </window>
+    <window class='dashboard' name='Variations relatives N+1 / N'>
+      <viewpoints>
+        <viewpoint name='Variations relatives N/N-1 du montant total des remboursements'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Variations relatives N/N-1 du montant total des remboursements (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CDE4EC4E-9DB2-4F6B-B67C-8BA83E4137F9}' />
+    </window>
+    <window class='dashboard' name='Dépenses en Transport'>
+      <viewpoints>
+        <viewpoint name='Evolution de la dépense des transport'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Évolution des dépenses totales en transport selon l&apos;âge en 2024.'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0588214B-9CE0-4AE6-8B57-5C04030A413B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Histoire 1'>
+      <viewpoints />
+      <active id='5' />
+      <simple-id uuid='{B525F7ED-50B9-4CF8-8951-228EB7DC5CFC}' />
+    </window>
+  </windows>
+</workbook>

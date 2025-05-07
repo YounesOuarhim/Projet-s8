@@ -1,0 +1,67 @@
+# Project name. Lowercase only. No space, no special character.
+#
+# ex:
+#   name: "monjoliprojet"
+
+#name: "allianzsanté"
+
+# Mail of the project supervisor
+#
+# ex:
+#   supervisor_email: "mail.address@institute.org"
+
+#supervisor_email: "emmanuel.vazquez@centralesupelec.fr"
+
+# Instutition and course name
+#
+# ex:
+#   institution: "CentraleSupelec ST5"
+#   institution: "Paris SUD L3"
+
+#institution: "CentraleSupelec Projet s8 pôle data science"
+
+# Expiration date. Format YYYY-MM-DD
+#
+# ex:
+#   expire_date: "2022-12-31"
+
+#expire_date: "2025-06-31"
+
+# Students information. Login, name, email, ssh_pub_key.
+# Please note that login MUST be the name (only the first one in case of multiple names),
+# an underscore and the three first letters of first name (or full first name in case of lesser length)
+#
+# ex:
+#   students:
+#     - {login: "foo_mar", name: "Martin Foo", email: "martin.foo@mail.adress", ssh_pub_key: "ssh-rsa ..."}
+#     - {login: "bar_hec", name: "Hector Bar", email: "hector.bar@mail.adress", ssh_pub_key: "ssh-rsa ..."}
+#     - ...
+
+#students:
+#     - {login: "ouarhim_you", name: "Younes Ouarhim", email: "younes.ouarhim@student-cs.fr", ssh_pub_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKmsIfFqe3I3MUilrFwZGOLtj2CDu+mNGGgOYZ0YiubK ouarhim younes@LAPTOP-OG8VU1SU"}
+
+#     - {login: "adib_aym", name: "Aymane Chaoui Adib", email: "aymane-chaoui.adib@student-cs.fr", ssh_pub_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAl1odnuhRO6C8RNDzFqEs7D7mA2vrIgOXt7O3aaL0gd hp@myLaptop"}
+
+#     - {login: "bonatto_ali", name: "Alisson Bonatto", email: "alisson.bonatto@student-cs.fr", ssh_pub_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ+G7GiENHFsgsRsPESpCu/m3dZC+1FHGnjDxriARCO2 Alisson Bonatto@LAPTOP-IOKH3HGI"}
+
+#     - {login: “fadli_oth", name: "Othmane Fadli", email: "othmane.fadli@student-cs.fr", ssh_pub_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKAY0av3MCyFDxS6jJuO5DdiB/C3wOIdfS8irv5XImEZ hp@DESKTOP-1K5J5HC"}
+
+#     - {login: “djebali_ami", name: "Amin Djebali", email: "amin.djebali@student-cs.fr", ssh_pub_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF/dzoGJq9Uk3D27pN+Ko4u/rZ7fPn/anoqu81p2UnM9 amin.djebali@student-cs.fr"}
+
+
+#     - {login: “farchakhi_dou", name: "Douae Farchakhi", email: "douae.farchakhi@student-cs.fr", ssh_pub_key: " ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL6eXYfEbTLBrnZy2D/5V61OpbdBCEWm4RHja6+8s0d1 hp x360 1040 g7@douae"}
+
+# Optional open date. Login access will be open on this date. Format YYYY-MM-DD
+# Default value: current date
+#
+# ex:
+#   open_date: "2022-12-31"
+
+#open_date: "2025-02-28"
+
+# Optional comment
+#
+# ex:
+#   comment: "Automantants project on ...." // comment: "PoleIA project on ...." // comment: "PhD project ...." // ....
+
+#comment: "Pôle data science on sinistrality prediction in insurance for Allianz santé"

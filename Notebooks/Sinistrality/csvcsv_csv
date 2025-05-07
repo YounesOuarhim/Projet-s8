@@ -1,0 +1,157 @@
+,annee,region,monthly_population,mois
+0,2019,Auvergne-Rhône-Alpes,8045912.333333333,1
+1,2019,Auvergne-Rhône-Alpes,8048888.666666667,2
+2,2019,Auvergne-Rhône-Alpes,8051865.0,3
+3,2019,Auvergne-Rhône-Alpes,8054841.333333333,4
+4,2019,Auvergne-Rhône-Alpes,8057817.666666667,5
+5,2019,Auvergne-Rhône-Alpes,8060794.0,6
+6,2019,Auvergne-Rhône-Alpes,8063770.333333333,7
+7,2019,Auvergne-Rhône-Alpes,8066746.666666667,8
+8,2019,Auvergne-Rhône-Alpes,8069723.0,9
+9,2019,Auvergne-Rhône-Alpes,8072699.333333333,10
+10,2019,Auvergne-Rhône-Alpes,8075675.666666667,11
+11,2019,Auvergne-Rhône-Alpes,8078652.0,12
+12,2019,Bourgogne-Franche-Comté,2805256.25,1
+13,2019,Bourgogne-Franche-Comté,2804932.5,2
+14,2019,Bourgogne-Franche-Comté,2804608.75,3
+15,2019,Bourgogne-Franche-Comté,2804285.0,4
+16,2019,Bourgogne-Franche-Comté,2803961.25,5
+17,2019,Bourgogne-Franche-Comté,2803637.5,6
+18,2019,Bourgogne-Franche-Comté,2803313.75,7
+19,2019,Bourgogne-Franche-Comté,2802990.0,8
+20,2019,Bourgogne-Franche-Comté,2802666.25,9
+21,2019,Bourgogne-Franche-Comté,2802342.5,10
+22,2019,Bourgogne-Franche-Comté,2802018.75,11
+23,2019,Bourgogne-Franche-Comté,2801695.0,12
+24,2019,Bretagne,3356435.75,1
+25,2019,Bretagne,3358017.5,2
+26,2019,Bretagne,3359599.25,3
+27,2019,Bretagne,3361181.0,4
+28,2019,Bretagne,3362762.75,5
+29,2019,Bretagne,3364344.5,6
+30,2019,Bretagne,3365926.25,7
+31,2019,Bretagne,3367508.0,8
+32,2019,Bretagne,3369089.75,9
+33,2019,Bretagne,3370671.5,10
+34,2019,Bretagne,3372253.25,11
+35,2019,Bretagne,3373835.0,12
+36,2019,Centre-Val-de-Loire,2573320.25,1
+37,2019,Centre-Val-de-Loire,2573460.5,2
+38,2019,Centre-Val-de-Loire,2573600.75,3
+39,2019,Centre-Val-de-Loire,2573741.0,4
+40,2019,Centre-Val-de-Loire,2573881.25,5
+41,2019,Centre-Val-de-Loire,2574021.5,6
+42,2019,Centre-Val-de-Loire,2574161.75,7
+43,2019,Centre-Val-de-Loire,2574302.0,8
+44,2019,Centre-Val-de-Loire,2574442.25,9
+45,2019,Centre-Val-de-Loire,2574582.5,10
+46,2019,Centre-Val-de-Loire,2574722.75,11
+47,2019,Centre-Val-de-Loire,2574863.0,12
+48,2019,Grand Est,5556755.0,1
+49,2019,Grand Est,5557291.0,2
+50,2019,Grand Est,5557827.0,3
+51,2019,Grand Est,5558363.0,4
+52,2019,Grand Est,5558899.0,5
+53,2019,Grand Est,5559435.0,6
+54,2019,Grand Est,5559971.0,7
+55,2019,Grand Est,5560507.0,8
+56,2019,Grand Est,5561043.0,9
+57,2019,Grand Est,5561579.0,10
+58,2019,Grand Est,5562115.0,11
+59,2019,Grand Est,5562651.0,12
+60,2019,Hauts-de-France,6004345.916666667,1
+61,2019,Hauts-de-France,6003744.833333333,2
+62,2019,Hauts-de-France,6003143.75,3
+63,2019,Hauts-de-France,6002542.666666667,4
+64,2019,Hauts-de-France,6001941.583333333,5
+65,2019,Hauts-de-France,6001340.5,6
+66,2019,Hauts-de-France,6000739.416666667,7
+67,2019,Hauts-de-France,6000138.333333333,8
+68,2019,Hauts-de-France,5999537.25,9
+69,2019,Hauts-de-France,5998936.166666667,10
+70,2019,Hauts-de-France,5998335.083333333,11
+71,2019,Hauts-de-France,5997734.0,12
+72,2019,Ile-de-France,12263314.833333334,1
+73,2019,Ile-de-France,12264085.666666666,2
+74,2019,Ile-de-France,12264856.5,3
+75,2019,Ile-de-France,12265627.333333334,4
+76,2019,Ile-de-France,12266398.166666666,5
+77,2019,Ile-de-France,12267169.0,6
+78,2019,Ile-de-France,12267939.833333334,7
+79,2019,Ile-de-France,12268710.666666666,8
+80,2019,Ile-de-France,12269481.5,9
+81,2019,Ile-de-France,12270252.333333334,10
+82,2019,Ile-de-France,12271023.166666666,11
+83,2019,Ile-de-France,12271794.0,12
+84,2019,Normandie,3325072.8333333335,1
+85,2019,Normandie,3325113.6666666665,2
+86,2019,Normandie,3325154.5,3
+87,2019,Normandie,3325195.3333333335,4
+88,2019,Normandie,3325236.1666666665,5
+89,2019,Normandie,3325277.0,6
+90,2019,Normandie,3325317.8333333335,7
+91,2019,Normandie,3325358.6666666665,8
+92,2019,Normandie,3325399.5,9
+93,2019,Normandie,3325440.3333333335,10
+94,2019,Normandie,3325481.1666666665,11
+95,2019,Normandie,3325522.0,12
+96,2019,Nouvelle-Aquitaine,6012260.916666667,1
+97,2019,Nouvelle-Aquitaine,6014232.833333333,2
+98,2019,Nouvelle-Aquitaine,6016204.75,3
+99,2019,Nouvelle-Aquitaine,6018176.666666667,4
+100,2019,Nouvelle-Aquitaine,6020148.583333333,5
+101,2019,Nouvelle-Aquitaine,6022120.5,6
+102,2019,Nouvelle-Aquitaine,6024092.416666667,7
+103,2019,Nouvelle-Aquitaine,6026064.333333333,8
+104,2019,Nouvelle-Aquitaine,6028036.25,9
+105,2019,Nouvelle-Aquitaine,6030008.166666667,10
+106,2019,Nouvelle-Aquitaine,6031980.083333333,11
+107,2019,Nouvelle-Aquitaine,6033952.0,12
+108,2019,Occitanie,5936583.666666667,1
+109,2019,Occitanie,5939982.333333333,2
+110,2019,Occitanie,5943381.0,3
+111,2019,Occitanie,5946779.666666667,4
+112,2019,Occitanie,5950178.333333333,5
+113,2019,Occitanie,5953577.0,6
+114,2019,Occitanie,5956975.666666667,7
+115,2019,Occitanie,5960374.333333333,8
+116,2019,Occitanie,5963773.0,9
+117,2019,Occitanie,5967171.666666667,10
+118,2019,Occitanie,5970570.333333333,11
+119,2019,Occitanie,5973969.0,12
+120,2019,Pays de la Loire,3808599.25,1
+121,2019,Pays de la Loire,3810737.5,2
+122,2019,Pays de la Loire,3812875.75,3
+123,2019,Pays de la Loire,3815014.0,4
+124,2019,Pays de la Loire,3817152.25,5
+125,2019,Pays de la Loire,3819290.5,6
+126,2019,Pays de la Loire,3821428.75,7
+127,2019,Pays de la Loire,3823567.0,8
+128,2019,Pays de la Loire,3825705.25,9
+129,2019,Pays de la Loire,3827843.5,10
+130,2019,Pays de la Loire,3829981.75,11
+131,2019,Pays de la Loire,3832120.0,12
+132,2019,Provence-Alpes-Côte d'Azur et Corse,5423276.5,1
+133,2019,Provence-Alpes-Côte d'Azur et Corse,5425012.0,2
+134,2019,Provence-Alpes-Côte d'Azur et Corse,5426747.5,3
+135,2019,Provence-Alpes-Côte d'Azur et Corse,5428483.0,4
+136,2019,Provence-Alpes-Côte d'Azur et Corse,5430218.5,5
+137,2019,Provence-Alpes-Côte d'Azur et Corse,5431954.0,6
+138,2019,Provence-Alpes-Côte d'Azur et Corse,5433689.5,7
+139,2019,Provence-Alpes-Côte d'Azur et Corse,5435425.0,8
+140,2019,Provence-Alpes-Côte d'Azur et Corse,5437160.5,9
+141,2019,Provence-Alpes-Côte d'Azur et Corse,5438896.0,10
+142,2019,Provence-Alpes-Côte d'Azur et Corse,5440631.5,11
+143,2019,Provence-Alpes-Côte d'Azur et Corse,5442367.0,12
+144,2019,Régions et Départements d'outre-mer,2162170.8333333335,1
+145,2019,Régions et Départements d'outre-mer,2163127.6666666665,2
+146,2019,Régions et Départements d'outre-mer,2164084.5,3
+147,2019,Régions et Départements d'outre-mer,2165041.3333333335,4
+148,2019,Régions et Départements d'outre-mer,2165998.1666666665,5
+149,2019,Régions et Départements d'outre-mer,2166955.0,6
+150,2019,Régions et Départements d'outre-mer,2167911.8333333335,7
+151,2019,Régions et Départements d'outre-mer,2168868.6666666665,8
+152,2019,Régions et Départements d'outre-mer,2169825.5,9
+153,2019,Régions et Départements d'outre-mer,2170782.3333333335,10
+154,2019,Régions et Départements d'outre-mer,2171739.1666666665,11
+155,2019,Régions et Départements d'outre-mer,2172696.0,12
