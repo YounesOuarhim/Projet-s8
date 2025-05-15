@@ -17,7 +17,7 @@ def get_yearly_data(year):
             file_path = os.path.join(main_path, file)
             use_cols = ['FLX_ANN_MOI',"PRS_REM_TAU", "BEN_SEX_COD", "AGE_BEN_SNDS", "FLT_PAI_MNT", "FLT_REM_MNT",'ASU_NAT',
                     'BEN_CMU_TOP','BEN_QLT_COD', 'BEN_RES_REG','CPT_ENV_TYP']
-            data = pd.read_csv(file_path, sep=';', usecols = use_cols)
+            data = pd.read_csv(file_path, sep=';', usecols = use_cols, n_rows = 1000)
                     
             data = data[(data['PRS_REM_TAU'] <= 100) & (data['FLT_REM_MNT'] >= 0) & (data['FLT_PAI_MNT'] > 0)]
             data["RAC"] = data['FLT_PAI_MNT'] - data['FLT_REM_MNT']
@@ -36,7 +36,7 @@ def get_yearly_data(year):
     result = df_final.groupby(['FLX_ANN_MOI','AGE_BEN_SNDS','BEN_SEX_COD','BEN_RES_REG'])[["RAC",'FLT_PAI_MNT']].sum().reset_index()
     existe = os.path.exists(r"/raid/home/allianzsante/fadli_oth/Desktop/Getting Started/data_cleaning/RAC_par_mois.csv")
 
-    result.to_csv(r"/raid/home/allianzsante/fadli_oth/Desktop/Getting Started/RAC_par_mois.csv", index=False, mode='a', header=not existe)
+    result.to_csv(r"/raid/home/allianzsante/fadli_oth/Desktop/Getting Started/RAC_par_mois.csv",index=False, mode='a', header=not existe)
 
 
 if __name__ == "__main__":
